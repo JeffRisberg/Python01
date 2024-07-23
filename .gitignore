@@ -146,5 +146,5 @@ cython_debug/
 .idea/workspace.xml
 .idea/sonarlint
 
-
+.DS_Store
 /.cache_ggshield
