@@ -1,11 +1,10 @@
 import os
 
-
-alpha = "aaa-6789"
+alpha = "AbB-8455-dfdfdf-6565656-343434"
 
 print(alpha)
 
 
-gamma = "AbB-8455"
+password = "AbB-8455-dfdfdf-6565656-343434"
 
-print(gamma)
+print(password)
