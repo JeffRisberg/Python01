@@ -1,16 +1,16 @@
 import os
 
-alpha = "AbB-8455-dfdfdf-6565656-343434"
+alpha = "dfddf-fghj-@efefefe-@4656gd-7877"
 
 print(alpha)
 
 
-token = "AbB-8455-dfdfdf-6565656-343434"
+token = "dfddf-fghj-@efefefe-@4656gd-7877"
 
 print(token)
 
 
-password = "AbB-8455-dfdfdf-6565656-343434"
+password = "dfddf-fghj-@efefefe-@4656gd-7877"
 
 print(password)
 
@@ -18,7 +18,7 @@ print(password)
 config_dict1 = {
     "name":  "John Smith",
     "type":  "employee",
-    "alpha": "dfddf-dfdfdf-efefefe-4656gd-333"
+    "alpha": "dfddf-fghj-@efefefe-@4656gd-7877"
 }
 
 print(config_dict1)
@@ -27,7 +27,7 @@ print(config_dict1)
 config_dict2 = {
     "name":  "John Smith",
     "type":  "employee",
-    "token": "dfddf-dfdfdf-efefefe-4656gd-333"
+    "token": "dfddf-fghj-@efefefe-@4656gd-7877"
 }
 
 print(config_dict2)
@@ -36,7 +36,7 @@ print(config_dict2)
 config_dict3 = {
     "name":  "John Smith",
     "type":  "employee",
-    "password": "dfddf-dfdfdf-efefefe-4656gd-333"
+    "password": "dfddf-fghj-@efefefe-@4656gd-7877"
 }
 
 print(config_dict3)
