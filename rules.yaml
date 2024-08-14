@@ -1,0 +1,23 @@
+rules:
+  - id: python-example-rule-6_secret_detector
+    languages:
+      - python
+    severity: ERROR
+    message: Semgrep found a match
+    patterns:
+      - pattern-either:
+          - pattern: $KEY = $SECRET
+          - pattern: |-
+              {
+                $KEY: $SECRET,
+                ...
+              }
+      - metavariable-regex:
+          metavariable: $KEY
+          regex: ^.*?(password|token|secret).*$
+      - metavariable-regex:
+          metavariable: $SECRET
+          regex: "[^A-Za-z0-9-]*"
+      - metavariable-analysis:
+          analyzer: entropy
+          metavariable: $SECRET
